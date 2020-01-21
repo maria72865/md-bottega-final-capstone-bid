@@ -1,0 +1,239 @@
+﻿<html>
+	<head>
+		<META HTTP-EQUIV="Content-Type" content="text/html; charset=utf-8">
+		<link rel="stylesheet" href="_UpgradeReport_Files\UpgradeReport.css">
+		<title>vbpBid.vbp Upgrade Report</title>
+		
+		<script language="javascript">
+			function outliner () {
+				oMe = window.event.srcElement
+				//get child element
+				var child = document.all[event.srcElement.getAttribute("child",false)];
+				//if child element exists, expand or collapse it.
+				if (null != child)
+					child.className = child.className == "collapsed" ? "expanded" : "collapsed";
+			}
+		
+			function changepic() {
+				uMe = window.event.srcElement;
+				var check = uMe.src.toLowerCase();
+				if (check.lastIndexOf("upgradereport_plus.gif") != -1)
+				{
+					uMe.src = "_UpgradeReport_Files/UpgradeReport_Minus.gif"
+				}
+				else
+				{
+					uMe.src = "_UpgradeReport_Files/UpgradeReport_Plus.gif"
+				}
+			}
+		</script>
+		
+	</head>
+	<body topmargin="0" leftmargin="0" rightmargin="0" onclick="outliner();">
+		<h1>Upgrade Report for vbpBid.vbp</h1>
+		
+		<p><span class="note">
+		<b>Time of Upgrade:  </b>8/1/2003 8:21 PM<br>
+		</span></p>
+		
+		<h2>List of Project Files</h2>
+		<table cellpadding="2" cellspacing="0" width="98%" border="1"bordercolor="white" class="infotable"></TR>
+			<tr>
+				<td nowrap class="header">New Filename</td>
+				<td nowrap class="header">Original Filename</td>
+				<td nowrap class="header">File Type</td>
+				<td nowrap class="header">Status</td>
+				<td nowrap class="header">Errors</td>
+				<td nowrap class="header">Warnings</td>
+				<td nowrap class="header">Total Issues</td>
+			</tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue0">&nbsp;(Global Issues)</td>
+			<td class="content"></td>
+			<td class="content"></td>
+			<td class="content">
+		</td>	<td class="content">0</td>
+			<td class="content">0</td>
+			<td class="content">0</td>
+		</tr>
+			<tr class="collapsed" id="issue0" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Global update issues:</td></tr><tr><td class="issuenone">None</td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue1">&nbsp;frmBidCalc.vb</td>
+			<td class="content">frmBidCalc.frm</td>
+			<td class="content">Form</td>
+			<td class="content">
+		Upgraded with issues</td>	<td class="content">1</td>
+			<td class="content">3</td>
+			<td class="content">4</td>
+		</tr>
+			<tr class="collapsed" id="issue1" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for frmBidCalc.frm:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr" nowrap>Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Property</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">Form</td><td class="issuecontent">frmBidCalc</td><td class="issuecontent">Picture</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2065"'>Form property frmBidCalc.Picture has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmbAC_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cmbAC.SelectedIndexChanged may fire when form is initialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_Activate</td><td class="issuecontent">Form</td><td class="issuecontent">frmBidCalc</td><td class="issuecontent">Activate</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2065"'>Form event frmBidCalc.Activate has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_Unload</td><td class="issuecontent">Form</td><td class="issuecontent">frmBidCalc</td><td class="issuecontent">Unload</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2065"'>Form event frmBidCalc.Unload has a new behavior.</a></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue2">&nbsp;frmBidCalc1.vb</td>
+			<td class="content">frmBidCalc1.frm</td>
+			<td class="content">Form</td>
+			<td class="content">
+		Upgraded with issues</td>	<td class="content">1</td>
+			<td class="content">18</td>
+			<td class="content">19</td>
+		</tr>
+			<tr class="collapsed" id="issue2" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for frmBidCalc1.frm:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr" nowrap>Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Property</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">Form</td><td class="issuecontent">frmBidCalc1</td><td class="issuecontent">Picture</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2065"'>Form property frmBidCalc1.Picture has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmbICAO_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cmbICAO.SelectedIndexChanged may fire when form is initialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmbICAO1_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cmbICAO1.SelectedIndexChanged may fire when form is initialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmbICAO10_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cmbICAO10.SelectedIndexChanged may fire when form is initialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmbICAO11_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cmbICAO11.SelectedIndexChanged may fire when form is initialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmbICAO12_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cmbICAO12.SelectedIndexChanged may fire when form is initialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">7</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmbICAO13_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cmbICAO13.SelectedIndexChanged may fire when form is initialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">8</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmbICAO14_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cmbICAO14.SelectedIndexChanged may fire when form is initialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">9</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmbICAO15_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cmbICAO15.SelectedIndexChanged may fire when form is initialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">10</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmbICAO2_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cmbICAO2.SelectedIndexChanged may fire when form is initialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">11</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmbICAO3_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cmbICAO3.SelectedIndexChanged may fire when form is initialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">12</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmbICAO4_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cmbICAO4.SelectedIndexChanged may fire when form is initialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">13</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmbICAO5_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cmbICAO5.SelectedIndexChanged may fire when form is initialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">14</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmbICAO6_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cmbICAO6.SelectedIndexChanged may fire when form is initialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">15</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmbICAO7_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cmbICAO7.SelectedIndexChanged may fire when form is initialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">16</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmbICAO8_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cmbICAO8.SelectedIndexChanged may fire when form is initialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">17</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmbICAO9_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2075"'>Event cmbICAO9.SelectedIndexChanged may fire when form is initialized.</a></td></tr>
+					<tr><td width="10" class="issuecontent">18</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">cmdClear_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup1041"'>TypeOf has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">19</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_Unload</td><td class="issuecontent">Form</td><td class="issuecontent">frmBidCalc1</td><td class="issuecontent">Unload</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2065"'>Form event frmBidCalc1.Unload has a new behavior.</a></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue3">&nbsp;frmBidPrint.vb</td>
+			<td class="content">frmBidPrint.frm</td>
+			<td class="content">Form</td>
+			<td class="content">
+		Upgraded with issues</td>	<td class="content">10</td>
+			<td class="content">1</td>
+			<td class="content">11</td>
+		</tr>
+			<tr class="collapsed" id="issue3" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for frmBidPrint.frm:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr" nowrap>Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Property</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">cmdPrint_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Printer</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2068"'>Printer object was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">cmdPrint_Click</td><td class="issuecontent">Form</td><td class="issuecontent">frmBidPrint</td><td class="issuecontent">ScaleMode</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2038"'>Form property frmBidPrint.ScaleMode is not supported.</a></td></tr>
+					<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">cmdPrint_Click</td><td class="issuecontent">Form</td><td class="issuecontent">frmBidPrint</td><td class="issuecontent">vbTwips</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2070"'>Constant vbTwips was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">cmdPrint_Click</td><td class="issuecontent">PictureBox</td><td class="issuecontent">Picture2</td><td class="issuecontent">AutoRedraw</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2064"'>PictureBox property Picture2.AutoRedraw was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">cmdPrint_Click</td><td class="issuecontent">PictureBox</td><td class="issuecontent">Picture2</td><td class="issuecontent">hDC</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2064"'>PictureBox property Picture2.hDC was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">cmdPrint_Click</td><td class="issuecontent">PictureBox</td><td class="issuecontent">Picture2</td><td class="issuecontent">Image</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2064"'>PictureBox property Picture2.Image was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">7</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">cmdPrint_Click</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">EndDoc</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer method Printer.EndDoc was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">8</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">cmdPrint_Click</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">PaintPicture</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer method Printer.PaintPicture was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">9</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">cmdPrint_Click</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">Print</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer method Printer.Print was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">10</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2055"'>Panel property Picture1.BackgroundImage will be tiled.</a></td></tr>
+					<tr><td width="10" class="issuecontent">11</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_Activate</td><td class="issuecontent">Form</td><td class="issuecontent">frmBidPrint</td><td class="issuecontent">Activate</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2065"'>Form event frmBidPrint.Activate has a new behavior.</a></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue4">&nbsp;frmBidPrint1.vb</td>
+			<td class="content">frmBidPrint1.frm</td>
+			<td class="content">Form</td>
+			<td class="content">
+		Upgraded with issues</td>	<td class="content">10</td>
+			<td class="content">1</td>
+			<td class="content">11</td>
+		</tr>
+			<tr class="collapsed" id="issue4" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for frmBidPrint1.frm:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr" nowrap>Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Property</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">cmdPrint_Click</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent">Printer</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2068"'>Printer object was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">cmdPrint_Click</td><td class="issuecontent">Form</td><td class="issuecontent">frmBidPrint1</td><td class="issuecontent">ScaleMode</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2038"'>Form property frmBidPrint1.ScaleMode is not supported.</a></td></tr>
+					<tr><td width="10" class="issuecontent">3</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">cmdPrint_Click</td><td class="issuecontent">Form</td><td class="issuecontent">frmBidPrint1</td><td class="issuecontent">vbTwips</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2070"'>Constant vbTwips was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">4</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">cmdPrint_Click</td><td class="issuecontent">PictureBox</td><td class="issuecontent">Picture2</td><td class="issuecontent">AutoRedraw</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2064"'>PictureBox property Picture2.AutoRedraw was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">5</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">cmdPrint_Click</td><td class="issuecontent">PictureBox</td><td class="issuecontent">Picture2</td><td class="issuecontent">hDC</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2064"'>PictureBox property Picture2.hDC was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">6</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">cmdPrint_Click</td><td class="issuecontent">PictureBox</td><td class="issuecontent">Picture2</td><td class="issuecontent">Image</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2064"'>PictureBox property Picture2.Image was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">7</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">cmdPrint_Click</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">EndDoc</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer method Printer.EndDoc was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">8</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">cmdPrint_Click</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">PaintPicture</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer method Printer.PaintPicture was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">9</td><td class="issuecontent" nowrap>Compile Error</td><td class="issuecontent">cmdPrint_Click</td><td class="issuecontent">Printer</td><td class="issuecontent">Printer</td><td class="issuecontent">Print</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2069"'>Printer method Printer.Print was not upgraded.</a></td></tr>
+					<tr><td width="10" class="issuecontent">10</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"></td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2055"'>Panel property Picture1.BackgroundImage will be tiled.</a></td></tr>
+					<tr><td width="10" class="issuecontent">11</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_Activate</td><td class="issuecontent">Form</td><td class="issuecontent">frmBidPrint1</td><td class="issuecontent">Activate</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2065"'>Form event frmBidPrint1.Activate has a new behavior.</a></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue5">&nbsp;frmCust.vb</td>
+			<td class="content">frmCust.frm</td>
+			<td class="content">Form</td>
+			<td class="content">
+		Upgraded with issues</td>	<td class="content">1</td>
+			<td class="content">1</td>
+			<td class="content">2</td>
+		</tr>
+			<tr class="collapsed" id="issue5" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for frmCust.frm:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr" nowrap>Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Property</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">Form</td><td class="issuecontent">frmCust</td><td class="issuecontent">Picture</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2065"'>Form property frmCust.Picture has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_Unload</td><td class="issuecontent">Form</td><td class="issuecontent">frmCust</td><td class="issuecontent">Unload</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2065"'>Form event frmCust.Unload has a new behavior.</a></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue6">&nbsp;frmOther.vb</td>
+			<td class="content">frmOther.frm</td>
+			<td class="content">Form</td>
+			<td class="content">
+		Upgraded with issues</td>	<td class="content">1</td>
+			<td class="content">1</td>
+			<td class="content">2</td>
+		</tr>
+			<tr class="collapsed" id="issue6" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for frmOther.frm:</td></tr><tr><td width="10" class="issuehdr">#</td><td class="issuehdr" nowrap>Severity</td><td class="issuehdr">Location</td><td class="issuehdr">Object Type</td><td class="issuehdr">Object Name</td><td class="issuehdr">Property</td><td class="issuehdr">Description</td></tr>
+					<tr><td width="10" class="issuecontent">1</td><td class="issuecontent" nowrap>Design Error</td><td class="issuecontent">(Layout)</td><td class="issuecontent">Form</td><td class="issuecontent">frmOther</td><td class="issuecontent">Picture</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2065"'>Form property frmOther.Picture has a new behavior.</a></td></tr>
+					<tr><td width="10" class="issuecontent">2</td><td class="issuecontent" nowrap>Runtime Warning</td><td class="issuecontent">Form_Unload</td><td class="issuecontent">Form</td><td class="issuecontent">frmOther</td><td class="issuecontent">Unload</td><td class="issuecontent"><a href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbup2065"'>Form event frmOther.Unload has a new behavior.</a></td></tr>
+				</table>
+			</td></tr>
+		<tr class="row">
+			<td class="content"><IMG alt="expand/collapse section" class="expandable" height="11"onclick=changepic() src="_UpgradeReport_Files/UpgradeReport_Plus.gif" width="9" child="issue7">&nbsp;Module1.vb</td>
+			<td class="content">Module1.bas</td>
+			<td class="content">Module</td>
+			<td class="content">
+		Upgraded</td>	<td class="content">0</td>
+			<td class="content">0</td>
+			<td class="content">0</td>
+		</tr>
+			<tr class="collapsed" id="issue7" bgcolor="#ffffff"><td colspan="7">
+				<table width="97%" border="1" bordercolor="#dcdcdc" rules="cols" class="issuetable">
+				<tr><td colspan="7" class="issuetitle">Upgrade Issues for Module1.bas:</td></tr><tr><td class="issuenone">None</td></tr>
+				</table>
+			</td></tr>
+		<tr valign="top">
+			<td class="foot">7 File(s)</td>
+			<td class="foot">&nbsp;</td>
+			<td class="foot">Forms: 6<br>Modules: 1</td>
+			<td class="foot">
+		Upgraded: 7<BR>
+		Not upgraded: 0
+		</td>
+			<td class="foot">24</td>
+			<td class="foot">25</td>
+			<td class="foot">49</td>
+		</tr>
+		</table>
+		<p class="help">
+			<A href='ms-help://MS.VSCC.2003/commoner/redir/redirect.htm?keyword="vbtbsTroubleshootingApplicationsUpgradedFromVisualBasic60"'>Click here for help with troubleshooting upgraded projects</A>
+		</p>
+				<p>
+					<table class = "note">
+						<tr><td nowrap><b>Upgrade Settings</b></tr>
+						<tr><td nowrap><b>LogFile:</b> vbpBid.log</tr>
+						<tr><td nowrap><b>MigrateProjectTo:</b>WinExe</tr>
+						<tr><td nowrap><b>OutputDir:</b> C:\code\Bid\bid.NET</tr>
+						<tr><td nowrap><b>OutputName:</b> vbpBid.vbproj</tr>
+						<tr><td nowrap><b>ProjectName:</b> vbpBid</tr>
+						<tr><td nowrap><b>ProjectPath:</b> C:\code\Bid\vbpBid.vbp</tr>
+					</table>
+				</p>
+	</body>
+</html>
