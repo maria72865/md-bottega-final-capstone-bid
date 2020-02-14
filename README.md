@@ -1,6 +1,6 @@
 # Bottega Final Capstone, VB6 to Visual Studio 2019
 
-This application calculates a bid for international aircraft delivery. It was written to be completely self-contained to allow my pilots to create an accurate bid on the fly. It consists of three forms:
+This application calculates a bid for international aircraft delivery. It was written to be completely self-contained to allow pilots to create an accurate bid on the fly. It consists of three forms:
 
   1. Enter client info
   
